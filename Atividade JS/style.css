@@ -1,0 +1,129 @@
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 80px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#texto {
+    margin: 25px 0;
+    font-size: 22px;
+}
+
+button {
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #8b5cf6;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+
+.container {
+    text-align: center;
+}
+
+.enunciado {
+    margin-bottom: 25px;
+}
+
+button {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+#resultado {
+    margin-top: 20px;
+    min-height: 40px;
+    border: 2px solid #7c3aed;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.resposta {
+    margin: 5px;
+}
+
+#resultadoPergunta {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+#listaTarefas {
+    list-style-position: inside;
+    margin-top: 20px;
+    padding: 0;
+}
+
+#listaTarefas li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
+
+#resultadoTemperatura {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.semaforo {
+    width: 100px;
+    margin: 20px auto;
+    background-color: #111;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.luz {
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+
+
+#resultadoTabuada {
+    margin-top: 20px;
+    line-height: 1.8;
+    font-size: 18px;
+    border: 2px solid #7c3aed;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}

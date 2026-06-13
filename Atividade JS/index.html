@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+ 
+    <div class="container">
+
+<h1>Exercício 1</h1>
+
+<p>
+    Crie uma página com um botão que mostre e oculte um elemento
+    (como um texto ou uma imagem) quando clicado. </p>
+
+
+<button onclick="alternar()">Mostrar/Ocultar</button>
+
+    <p id="texto">Este texto pode ser ocultado ou exibido.</p>
+
+
+</div>
+
+
+<hr>
+
+<h1>Exercício 2</h1>
+
+<p class="enunciado">
+    Crie uma caixa de texto, um botão e uma div.
+    Ao clicar no botão, o conteúdo digitado deve aparecer na div.
+    Crie outro botão para limpar a div.
+</p>
+
+<input type="text" id="entrada" placeholder="Digite algo...">
+
+<br><br>
+
+<button id="mostrar">Mostrar</button>
+<button id="limpar">Limpar</button>
+
+<div id="resultado"></div>
+
+
+<hr>
+
+<h1>Exercício 3</h1>
+
+<p class="enunciado">
+    Crie uma pergunta com múltiplas opções.
+    Ao clicar em uma resposta, informe se ela está correta.
+</p>
+
+<h3>Qual linguagem é executada diretamente no navegador?</h3>
+
+<button class="resposta" data-correta="false">Python</button>
+<button class="resposta" data-correta="true">JavaScript</button>
+<button class="resposta" data-correta="false">Java</button>
+<button class="resposta" data-correta="false">C++</button>
+
+<p id="resultadoPergunta"></p>
+
+
+
+<hr>
+
+<h1>Exercício 4</h1>
+
+<p class="enunciado">
+    Crie um campo de texto e um botão para adicionar itens a uma lista.
+</p>
+
+<input type="text" id="novaTarefa" placeholder="Digite uma tarefa">
+
+<br><br>
+
+<button id="adicionarTarefa">Adicionar</button>
+
+<ul id="listaTarefas"></ul>
+
+
+<hr>
+
+<h1>Exercício 5</h1>
+
+<p class="enunciado">
+    Crie um campo para temperatura em Celsius e um botão.
+    Ao clicar, exiba o valor convertido para Fahrenheit.
+</p>
+
+<input type="number" id="celsius" placeholder="Temperatura em °C">
+
+<br><br>
+
+<button id="converter">Converter</button>
+
+<p id="resultadoTemperatura"></p>
+
+
+
+<hr>
+
+<h1>Exercício 6</h1>
+
+<p class="enunciado">
+    Crie três círculos (vermelho, amarelo e verde) e botões para acender cada um deles.
+</p>
+
+<div class="semaforo">
+    <div id="vermelho" class="luz"></div>
+    <div id="amarelo" class="luz"></div>
+    <div id="verde" class="luz"></div>
+</div>
+
+<br>
+
+<button id="btnVermelho">Vermelho</button>
+<button id="btnAmarelo">Amarelo</button>
+<button id="btnVerde">Verde</button>
+
+
+
+<hr>
+
+<h1>Exercício 7</h1>
+
+<p class="enunciado">
+    Crie um campo numérico e um botão.
+    Ao clicar, exiba a tabuada do número de 1 a 10.
+</p>
+
+<input type="number" id="numeroTabuada" placeholder="Digite um número">
+
+<br><br>
+
+<button id="gerarTabuada">Gerar Tabuada</button>
+
+<div id="resultadoTabuada"></div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
