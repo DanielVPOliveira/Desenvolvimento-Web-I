@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #121212;
+}
+
+.card{
+
+    height: auto;
+    min-height: 650px;
+
+    padding-bottom: 30px;
+
+
+    width: 450px;
+    min-height: 650px;
+
+    background-color: #1b1b1b;
+
+    border-radius: 20px;
+
+    border: 1px solid #8b5cf6;
+
+     box-shadow:
+        0 0 10px rgba(139, 92, 246, 0.8),
+        0 0 20px rgba(139, 92, 246, 0.4),
+        0 0 40px rgba(139, 92, 246, 0.2);
+
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 40px;
+}
+
+.foto {
+     width: 180px;
+    height: 180px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 4px solid #8b5cf6;
+
+     box-shadow:
+        0 0 10px rgba(139, 92, 246, 0.9),
+        0 0 20px rgba(139, 92, 246, 0.6),
+        0 0 40px rgba(139, 92, 246, 0.3);
+
+        margin-top: 25px;
+}
+
+
+.foto:hover{
+    transform: scale(1.02);
+
+    box-shadow:
+        0 0 12px rgba(139, 92, 246, 0.8),
+        0 0 24px rgba(139, 92, 246, 0.3);
+}
+
+
+h1{
+    color: white;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+*{
+    font-family: "Orbitron", sans-serif;
+}
+
+.desc{
+    width: 80%;
+
+    margin-top: 25px;
+
+    color: #b8b8b8;
+
+    text-align: center;
+
+    line-height: 1.6;
+
+    font-size: 0.95rem;
+}
+
+.atividades{
+    margin-top: 35px;
+    margin-bottom: 15px;
+
+    color: #ffffff;
+
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.atividade{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    gap: 15px;
+}
+
+.atividade-btn{
+    display: block;
+
+    width: 200%;
+    max-width: 320px;
+
+    padding: 14px;
+
+    background: #8b5cf6;
+
+    color: white;
+
+    text-decoration: none;
+
+    text-align: center;
+
+    border-radius: 12px;
+
+    font-weight: 500;
+
+    letter-spacing: 0.3px;
+
+    transition: all 0.25s ease;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.atividade-btn:hover{
+    background: #7c4dff;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 6px 15px rgba(139, 92, 246, 0.35);
+}
+
+.atividade-btn:active{
+    transform: translateY(0px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
